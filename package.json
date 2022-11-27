@@ -1,0 +1,15 @@
+{
+  "name": "single-page-app",
+  "version": "1.0.0",
+  "description": "make own single page app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "author": "eenaree",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
+}

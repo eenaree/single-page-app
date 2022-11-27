@@ -1,4 +1,4 @@
-import Nav from '../components/Nav.js';
+import Nav from '../components/Nav';
 
 const Home = () => {
   const $fragment = document.createDocumentFragment();

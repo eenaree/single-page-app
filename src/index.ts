@@ -1,6 +1,6 @@
-import About from './pages/About.js';
-import Home from './pages/Home.js';
-import NotFound from './pages/NotFound.js';
+import About from './pages/About';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
 const $root = document.getElementById('root');
 

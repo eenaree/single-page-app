@@ -6,7 +6,13 @@
     "moduleResolution": "node",
     "lib": ["dom", "dom.iterable", "es2022"],
     "strict": true,
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "sourceMap": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
   },
   "include": ["src/**/*"]
 }

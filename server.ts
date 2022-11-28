@@ -8,7 +8,7 @@ const app = connect();
 
 app.use(history() as connect.HandleFunction);
 
-app.use('/', async (req, res) => {
+app.use(async (req, res) => {
   const MIME_TYPES: { [key: string]: string } = {
     default: 'application/octet-stream',
     html: 'text/html; charset=UTF-8',
